@@ -1,0 +1,8 @@
+:root {
+  --font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-weight:lighter;
+}
