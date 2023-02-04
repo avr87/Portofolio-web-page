@@ -77,9 +77,73 @@ p {
   h2 {
     font-size: 32px;
   }
+  
 }
 @media (max-width: 420px) {
   body {
     padding: 20px;
   }
+  .bio{
+    margin-top: none !important;
+  }
+  .bio-text {
+text-align: center;
+padding: 0px 10px 10px 10px !important;
+ margin-top: none !important;
+  }
+.bio-text h1{
+    font-size: 50px !important;
+}
+ .bio-text h2{
+    font-size: 20px !important;
+
+ }
+.bio-text p{
+    font-size: 14px !important;
+}
+.contact{
+    max-width:75% !important;
+}
+ 
+}
+
+.bio{
+    background-image: url("/images/maasai-print-pic.jpeg");
+    margin-top: 50px;
+    
+}
+.bio-text{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 20px 40px 40px;
+}
+
+.headshot{
+    margin: 60px 30px 60px 0px;
+    padding: 50px
+}
+.bio-text h1{
+    font-weight: bold;
+  font-size: 50px;
+  line-height: 1.5;
+  opacity: 0.95;
+}
+.bio-text h2{
+    font-size: 30px;
+    line-height: 1.2;
+}
+.bio-text p{
+    font-size: 16px;
+  line-height: 30px;
+  opacity: 0.7;
+}
+
+.contact{
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding: 30px;
+    max-width: 60%;
+    background-color:  rgba(238,33,22,0.05);
+}
+.contact h2{
+     font-size: 30px;
 }
