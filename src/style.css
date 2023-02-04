@@ -173,3 +173,11 @@ p {
 
  
 }
+.contact a{
+    color: blue;
+}
+.social-icon a{
+    color: rgba(238, 33, 22);
+    font-size: 18px;
+
+}
