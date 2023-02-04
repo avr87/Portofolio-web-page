@@ -7,32 +7,32 @@ body {
   padding-top: 50px;
   padding: 50px 30px 0px 30px;
 }
-.hero {
+.content-title-card {
   background-image: url("/images/maasai-print-pic.jpeg");
   color: var(--primairy-color);
   text-align: center;
   padding: 100px 30px 80px 30px;
 }
 
-.hero h3 {
+.content-title-card h3 {
   font-weight: bold;
   font-size: 36px;
   margin: 0;
   opacity: 0.9;
 }
-.hero h1 {
+.content-title-card h1 {
   font-weight: bold;
   font-size: 96px;
   line-height: 1.5;
   opacity: 0.95;
 }
-.hero h2 {
+.content-title-card h2 {
   font-weight: normal;
   font-size: 24px;
   opacity: 0.9;
 }
 
-.hero a {
+.content-title-card a {
   color: honeydew;
   border-color: honeydew;
   font-size: 18px;
@@ -68,10 +68,10 @@ p {
     padding: 5px 30px;
     text-align: center;
   }
-  .hero {
+  .content-title-card {
     padding: 40px 0px;
   }
-  .hero h1 {
+  .content-title-card h1 {
     font-size: 60px;
   }
   h2 {
@@ -148,26 +148,12 @@ p {
      background-image: url("/images/maasai-print-pic.jpeg");
      
 }
-.project-title {
-  margin: 0px 40px 80px 40px;
-  padding: 50px;
-  color: var(--primairy-color);
-  text-align: center;
-}
 
-.project-text {
-  font-weight: bold;
-  font-size: 96px;
-  line-height: 1.5;
-  opacity: 0.95;
-  
-}
-.project-text h1 {
-  font-size: 60px;
-}
+
+
 .link-title {
   font-size: 48px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
   
 }
