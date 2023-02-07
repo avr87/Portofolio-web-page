@@ -4,7 +4,7 @@
 }
 body {
   font-family: var(--font-family);
-  
+
   padding: 20px 30px 20px 30px;
 }
 .content-title-card {
@@ -81,10 +81,10 @@ p {
   line-height: 1.2;
 }
 
-.background-image{
-     background-image: url("/images/maasai-print-pic.jpeg");
-     color: var(--primairy-color);
-  text-align: center; 
+.background-image {
+  background-image: url("/images/maasai-print-pic.jpeg");
+  color: var(--primairy-color);
+  text-align: center;
 }
 
 .link-title {
@@ -111,28 +111,27 @@ footer {
   max-width: 60%;
   background-color: rgba(238, 33, 22, 0.05);
   display: block;
-    margin: 0 auto;
-    margin-top: 80px;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 
 footer h2 {
   font-size: 30px;
 }
 
-footer a{
-    color: blue;
-    }
-.social-icon a{
-    color: rgba(238, 33, 22);
-    font-size: 18px;
+footer a {
+  color: blue;
 }
-h4{
-    font-size: 10px;
-    margin: 50px;
-    text-align: center;
+.social-icon a {
+  color: rgba(238, 33, 22);
+  font-size: 18px;
+}
+h4 {
+  font-size: 10px;
+  margin: 50px;
+  text-align: center;
 }
 @media (max-width: 990px) {
- 
   .project-description {
     padding: 5px 30px;
     text-align: center;
@@ -148,8 +147,6 @@ h4{
   }
 }
 @media (max-width: 420px) {
-  
-  
   .content-text {
     text-align: center;
     padding: 0px 10px 10px 10px !important;
@@ -165,13 +162,13 @@ h4{
     font-size: 14px !important;
   }
   .project-pic {
-  max-width: 90%;
-}
+    max-width: 90%;
+  }
 
   footer {
     max-width: 90% !important;
   }
-  .link-title{
+  .link-title {
     font-size: 20px !important;
   }
 }
